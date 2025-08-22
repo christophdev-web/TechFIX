@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios de Reparación - Dark Style</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .dark-overlay::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+  <!-- Header -->
+  <header class="bg-gray-950 shadow-lg fixed top-0 w-full z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
+      <h1 class="text-2xl font-bold">TechFix</h1>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#servicios" class="hover:text-blue-400">Servicios</a>
+        <a href="#asesoria" class="hover:text-blue-400">Asesoría</a>
+        <a href="#contacto" class="hover:text-blue-400">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative h-[80vh] flex items-center justify-center bg-gray-800 dark-overlay">
+    <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1600&q=80" alt="Reparación de celular" class="absolute inset-0 w-full h-full object-cover">
+    <div class="relative z-10 text-center">
+      <h2 class="text-4xl md:text-6xl font-bold mb-4">Reparación y Mantenimiento</h2>
+      <p class="text-lg md:text-xl mb-6">Celulares · Laptops · Computadoras · Consolas</p>
+      <a href="#servicios" class="bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-xl shadow-lg">Conoce más</a>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="max-w-7xl mx-auto py-20 px-6 grid md:grid-cols-4 gap-10">
+    <div class="bg-gray-800 rounded-2xl overflow-hidden shadow-lg relative group">
+    <img src="repair.jpg" class="w-full h-56 object-cover">
+      <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Reparación de Celulares</h3>
+        <p>Pantallas, baterías y software de todas las marcas.</p>
+      </div>
+    </div>
+
+    <div class="bg-gray-800 rounded-2xl overflow-hidden shadow-lg relative group">
+      <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" class="w-full h-56 object-cover group-hover:scale-105 transition-transform">
+      <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Reparación de Laptops y PCs</h3>
+        <p>Optimización, cambio de piezas y mantenimiento completo.</p>
+      </div>
+    </div>
+
+    <div class="bg-gray-800 rounded-2xl overflow-hidden shadow-lg relative group">
+      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" class="w-full h-56 object-cover group-hover:scale-105 transition-transform">
+      <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Venta de Celulares</h3>
+        <p>Modelos nuevos y reacondicionados con garantía.</p>
+      </div>
+    </div>
+
+    <div class="bg-gray-800 rounded-2xl overflow-hidden shadow-lg relative group">
+    <img src="console.jpg" class="w-full h-56 object-cover">      <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Reparación de Consolas</h3>
+        <p>Arreglamos PlayStation, Xbox, Nintendo y más, incluyendo hardware y software.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Asesoría -->
+  <section id="asesoria" class="relative py-20 bg-gray-900">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h3 class="text-3xl font-bold mb-4">Asesoramiento Tecnológico</h3>
+        <p class="mb-6">Te ayudamos a elegir el mejor dispositivo o solución para tus necesidades. Desde estudiantes hasta empresas, tenemos la experiencia para guiarte.</p>
+      </div>
+      <div class="relative rounded-2xl overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1526378722484-cc5c7100aa4c?auto=format&fit=crop&w=1000&q=80" alt="Asesoría tech" class="w-full h-80 object-cover">
+      </div>
+    </div>
+  </section>
+
+  <!-- Información de contacto -->
+  <section id="contacto" class="bg-gray-950 py-20 px-6 text-center">
+    <h3 class="text-3xl font-bold mb-6">Información de Contacto</h3>
+    <p class="mb-2">📍 Dirección: Calle Principal #123, Ciudad, País</p>
+    <p class="mb-2">📞 Teléfono: +593 991774100</p>
+    <p class="mb-2">✉️ Correo: andresarroba12@gmail.com</p>
+<a href="https://w.app/pyf1qa" target="_blank" class="text-blue-500 hover:text-blue-400">
+  Whatspp
+</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-950 text-center py-6 text-gray-400">
+    <p>© 2025 TechFix. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
